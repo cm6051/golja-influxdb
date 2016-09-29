@@ -74,6 +74,8 @@ reporting-disabled = <%= @reporting_disabled %>
 [coordinator]
   shard-writer-timeout = "<%= @shard_writer_timeout %>"
   write-timeout = "<%= @cluster_write_timeout %>"
+  query-timeout = "<%= @coordinator_query_timeout %>"
+  log-queries-after = "<%= @coordinator_log_queries_after %>"
 
 [retention]
   enabled = <%= @retention_enabled %>

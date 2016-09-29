@@ -53,6 +53,8 @@ class influxdb::params {
 
   $shard_writer_timeout                         = '5s'
   $cluster_write_timeout                        = '10s'
+  $coordinator_query_timeout                    = '0'
+  $coordinator_log_queries_after                = '0'
 
   $retention_enabled                            = true
   $retention_check_interval                     = '30m'

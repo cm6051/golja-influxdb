@@ -57,6 +57,8 @@ class influxdb::server::config {
 
   $shard_writer_timeout                         = $influxdb::server::shard_writer_timeout
   $cluster_write_timeout                        = $influxdb::server::cluster_write_timeout
+  $coordinator_query_timeout                    = $influxdb::server::coordinator_query_timeout
+  $coordinator_log_queries_after                = $influxdb::server::coordinator_log_queries_after
 
   $retention_enabled                            = $influxdb::server::retention_enabled
   $retention_check_interval                     = $influxdb::server::retention_check_interval
